@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local configuration
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# APK / App bundles
+*.apk
+*.aab
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Signing / secrets
+*.jks
+*.keystore
+key.properties

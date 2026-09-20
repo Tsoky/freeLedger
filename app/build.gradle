@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.freeledger.app'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.freeledger.app"
+        minSdk 26
+        targetSdk 36
+        versionCode 44
+        versionName "1.5.9"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}

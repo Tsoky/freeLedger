@@ -1,0 +1,8 @@
+no_internet_permission: True
+notification_listener: True
+post_notifications: True
+custom_categories_empty_by_default: True
+plan_linking: True
+merchant_rules: True
+json_import_export: True
+all_java_braces_balanced: True

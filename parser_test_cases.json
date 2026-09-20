@@ -1,0 +1,19 @@
+[
+  {
+    "text": "支付成功 ￥38.50 给 星河咖啡",
+    "expected_amount": 38.5,
+    "expected_merchant": "星河咖啡"
+  },
+  {
+    "text": "您尾号1234卡消费88.00元，交易成功",
+    "expected_amount": 88.0
+  },
+  {
+    "text": "付款 1,299.00 元成功",
+    "expected_amount": 1299.0
+  },
+  {
+    "text": "本月账单余额 5000 元",
+    "expected": "should_not_trigger_without_payment_keyword"
+  }
+]

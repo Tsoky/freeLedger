@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Android: assemble debug",
+      "type": "shell",
+      "command": "./gradlew assembleDebug",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Android: install debug",
+      "type": "shell",
+      "command": "./gradlew installDebug",
+      "dependsOn": "Android: assemble debug",
+      "problemMatcher": []
+    },
+    {
+      "label": "Android: connected devices",
+      "type": "shell",
+      "command": "/Users/zoy/Library/Android/sdk/platform-tools/adb devices -l",
+      "problemMatcher": []
+    }
+  ]
+}
